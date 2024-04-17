@@ -1,4 +1,4 @@
-Calculator GUI
+## Calculator GUI
 
 In this project, you will build on your prefix notation calculator TUI.
 
