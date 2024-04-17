@@ -1,4 +1,4 @@
-# Project 2 — Calculator GUI
+Calculator GUI
 
 In this project, you will build on your prefix notation calculator TUI.
 
@@ -27,7 +27,7 @@ Obtain the starter code using this GitHub link: **LINK IN CANVAS**
 
 ## Name bindings (variables)
 
-In Project 1, you used the composite design pattern to support a hierarchy of expression types, including binary expressions and constants (numbers).
+Previously used the composite design pattern to support a hierarchy of expression types, including binary expressions and constants (numbers).
 
 You will add support to this hierarchy for _name bindings_. That is, a user should be able to evaluate an expression like:
 
@@ -170,15 +170,4 @@ classes, and methods. I will assess your submission by manually reading through 
 of loosely coupled, cohesive modules, as well as for attentiveness to the _Effective Java_ items we talk about in class.
 
 **Design patterns**. Your composite design from project one remains. Additionally, you will be using something akin to the [Strategy Design Pattern](https://refactoring.guru/design-patterns/strategy) to support switching between different parsing strategies. Finally, you may find the [Observer Pattern](https://refactoring.guru/design-patterns/observer) useful. We'll talk about this in class.
-
-## Grading breakdown 
-
-The project is worth 10 points. The points are distributed as follows:
-
-* 5 points for functional correctness. I will run your application and go through a pre-prepared sequence of actions, including erroneous commands and edge cases.
-* 3 points for tested-ness. All non-GUI aspects of your project should have 100% branch coverage. This score will be computed as a simple percentage of branch coverage.
-* 2 points will be based on my manual read-through of your program. I will grade it for design, clean code, clarity, and anything SonarLint can't catch (e.g., poor variable names, meaningless Javadocs, and so on).
-
-On top of this, I will deduct 2 points off the top if there are any warnings from SonarLint or from the IDE in general. (Exceptions to this rule include things that have come up in the Slack regarding switch statements.)
-
-
+duct 2 points off the top if there are any warnings from SonarLint or from the IDE in general. (Exceptions to this rule include things that have come up in the Slack regarding switch statements.)
